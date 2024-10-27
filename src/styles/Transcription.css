@@ -1,0 +1,54 @@
+/* Transcription.css */
+
+.flex {
+  display: flex;
+}
+
+.backdrop-blur-md {
+  backdrop-filter: blur(10px);
+}
+
+.bg-white {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.bg-opacity-20 {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-red-600 {
+  color: #f56565; /* Use a specific shade for the error color */
+}
+
+.animate-pulse {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.75;
+  }
+}
+
+/* Wave effect styling for live transcription text */
+.wave-effect {
+  animation: wave 1.5s infinite;
+}
+
+@keyframes wave {
+  0% { text-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+  25% { text-shadow: 0 0 10px rgba(0, 255, 255, 0.6); }
+  50% { text-shadow: 0 0 20px rgba(0, 255, 255, 0.6); }
+  75% { text-shadow: 0 0 30px rgba(0, 255, 255, 0.6); }
+  100% { text-shadow: 0 0 0 rgba(0, 0, 0, 0); }
+}
