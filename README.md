@@ -30,7 +30,7 @@ A simple web application that allows users to record audio, transcribe it using 
 1. Clone the repository:
 
    ```bash
-   git clone <your-repository-url>
+   git clone https://github.com/Nitin919/audio-transcription-app
    cd voice-recorder-app
 
 
